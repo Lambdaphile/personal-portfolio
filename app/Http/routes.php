@@ -10,19 +10,23 @@
 | and give it the controller to call when that URI is requested.
 |
 */
-
+// Home Page.
 Route::get('/', 'PracticeController@home');
 
+// About Page.
 Route::get('about', [
     'as' => 'about', 'uses' => 'PracticeController@about'
 ]);
 
+// Contact Page.
 Route::get('contact', [
     'as' => 'contact', 'uses' => 'PracticeController@contact'
 ]);
 
+// Portfolio Page.
 Route::get('portfolio', 'PracticeController@portfolio');
 
+// Profile Page.
 Route::get('profile', ['as' => 'profile' , function () {
     return 'works.';
 }]);
