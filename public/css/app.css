@@ -1,0 +1,13 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.home {
+    height: 100%;
+    background-color: black;
+}
+/*# sourceMappingURL=app.css.map */
