@@ -1,7 +1,11 @@
-//@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+@import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
 
-$primary-color: yellow;
+$background-color: #F0EEE3;
 
 body {
-    background-color: $primary-color;
+    background-color: $background-color;
+}
+
+p {
+    font-size: 18px;
 }
