@@ -12,24 +12,29 @@ class PracticeController extends Controller
     // Home page.
     public function home()
     {
-        return view("welcome");
+        return view('welcome');
     }
     
     // About page.
     public function about()
     {        
-        return view("pages.about");
+        return view('pages.about');
     }
     
     // Contact page.
     public function contact()
     {
-        return view("pages.contact");
+        return view('pages.contact');
     }
     
     // Portfolio.
     public function portfolio() 
     {
-        return view("pages.portfolio");
+        return view('pages.portfolio');
+    }
+
+    public function skills()
+    {
+        return view('pages.skills');
     }
 }

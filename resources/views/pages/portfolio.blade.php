@@ -1,6 +1,8 @@
 @extends('layouts.master')
 
-@section('content')
+@section('title', 'Portfolio')
+
+@section('page-content')
 
 <nav class="navbar navbar-default">
   <div class="container-fluid">
