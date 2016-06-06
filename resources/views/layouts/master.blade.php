@@ -24,6 +24,7 @@
   <body>
     <nav>
         <ul>
+            <li><a href="{{ $url = route('home') }}">Home</a></li>
             <li><a href="{{ $url = route('about') }}">About</a></li>
             <li><a href="{{ $url = route('skills') }}">Skills</a></li>
             <li><a href="{{ $url = route('contact') }}">Contact</a></li>

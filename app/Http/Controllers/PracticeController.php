@@ -9,30 +9,51 @@ use App\Http\Controllers\Controller;
 
 class PracticeController extends Controller
 {
-    // Home page.
-    public function home()
+    /**
+     * Returns home page view.
+     * 
+     * @return Response 
+     */         
+    public function index()
     {
         return view('welcome');
     }
-    
-    // About page.
+
+    /**
+     * Returns about page view.
+     * 
+     * @return Response
+     */                                 
     public function about()
     {        
         return view('pages.about');
     }
-    
-    // Contact page.
+
+    /**
+     * Returns contact page view.
+     * 
+     * @return Response
+     */ 
     public function contact()
     {
         return view('pages.contact');
     }
-    
-    // Portfolio.
+
+    /**
+     * Returns portfolio page view.
+     * 
+     * @return Response
+     */
     public function portfolio() 
     {
         return view('pages.portfolio');
     }
 
+    /**
+     * Returns skills page view.
+     * 
+     * @return Response 
+     */
     public function skills()
     {
         return view('pages.skills');

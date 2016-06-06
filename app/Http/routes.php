@@ -11,30 +11,32 @@
 |
 */
 
-// Home page
-Route::get('/', 'PracticeController@home');
+// Home
+Route::get('/', [
+    'as' => 'home', 'uses' => 'PracticeController@index'
+]);
 
-// About page
+// About
 Route::get('about', [
     'as' => 'about', 'uses' => 'PracticeController@about'
 ]);
 
-// Contact page
+// Contact
 Route::get('contact', [
     'as' => 'contact', 'uses' => 'PracticeController@contact'
 ]);
 
-// Portfolio page
+// Portfolio
 Route::get('portfolio', [
     'as' => 'portfolio', 'uses' => 'PracticeController@portfolio'
 ]);
 
-// Profile Page
-Route::get('profile', ['as' => 'profile' , function () {
-    return 'works.';
-}]);
+// Profile
+Route::get('profile', [
+    'as' => 'profile' , function () { return 'works.'; }
+]);
 
-// Skills page
+// Skills
 Route::get('skills', [
     'as' => 'skills', 'uses' => 'PracticeController@skills'
 ]);
