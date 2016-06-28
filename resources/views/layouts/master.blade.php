@@ -9,30 +9,26 @@
     
     <!-- General description of the site -->
     <meta name="description" content="Emrah Seidov - full stack web developer specialized in PHP, Laravel, CMS systems like WordPress and many other web technologies."/>
-    <meta name="keywords" content="Emrah Seidov, Web Developer, PHP, Laravel, Freelancer, WordPress, Bootstrap, JavaScript, Front-end, Back-end">
+    <meta name="keywords" content="Rousse, Web Developer, PHP, Laravel, Wordpress, Bootstrap">
     <meta name="author" content="Emrah Seidov"/>
     <link rel="icon" href="http://i.imgur.com/WclrpxA.png">
     <title>Emrah Seidov - @yield('title')</title>
     
     <!-- Costum fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato|Raleway|Poiret+One' rel='stylesheet' type='text/css'>
+
+    <!-- Font Awesome -->
+    <script src="https://use.fontawesome.com/613a1ea12e.js"></script>
+
+    <!-- Stroke-Gap-Icons-Webfont -->
+    <link rel="stylesheet" type="text/css" href="/Stroke-Gap-Icons-Webfont/style.css">
     
-    <!-- Costum stylesheets -->
+    <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="/css/app.css">
   </head>
   
-  <body>
-    <nav>
-        <ul>
-            <li><a href="{{ $url = route('home') }}">Home</a></li>
-            <li><a href="{{ $url = route('about') }}">About</a></li>
-            <li><a href="{{ $url = route('skills') }}">Skills</a></li>
-            <li><a href="{{ $url = route('contact') }}">Contact</a></li>
-            <li><a href="{{ $url = route('portfolio') }}">Portfolio</a></li>
-        </ul>
-    </nav>
-
-    @yield('page-content')
+  <body> 
+    @yield('content')
     
     <!-- Latest compressed, production jQuery 2.2.3 -->
     <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
