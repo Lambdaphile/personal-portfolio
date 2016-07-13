@@ -28,4 +28,14 @@ class PagesController extends Controller
     {
         return view('pages.blog');
     }
+
+    /**
+     * Returns sketch page view.
+     *                                         
+     * @return Response
+     */
+    public function sketch()
+    {
+        return view('pages.sketch'); 
+    }
 }

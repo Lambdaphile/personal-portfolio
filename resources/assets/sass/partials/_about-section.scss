@@ -1,0 +1,63 @@
+#section-about {
+    .col-md-7 {height: 100%;
+    background-color: #DD7366;}
+
+    .col-md-5 { background-color: #2E2633;}
+    .about-me {
+        margin-left: 30%;
+        padding: 80px 60px 80px 15px;
+
+        p {
+            color: #ecf0f1;
+            font-family: 'Raleway', heletica;
+            font-size: 1.18em;
+            margin: 0;
+            text-align: left;
+        }
+
+        h2 {
+            color: #2E2E2E;
+            border: 3px solid #2E2E2E;
+            padding: 15px;
+            display: inline-block;
+            margin: 0 0 50px 0;
+        }
+    }
+
+    .profile {
+        background-color: #2E2633;
+        padding: 80px 60px 80px 80px;
+
+        ul {
+            padding: 0;
+
+        }
+
+        h2 {
+            color: #69D2E7;
+            border: 3px solid #69D2E7;
+            padding: 15px;
+            margin: 0 0 50px 0;
+            display: inline-block;
+            font-size: 2em;
+        }
+
+        li {
+            font-size: 1.15em;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            p {
+                font-size: 1.25em;
+            }
+        }
+
+        .small-line {
+            position: relative;
+            border-top: 2px solid #69D2E7;
+            margin-bottom: 30px;
+            width: 20px;
+        }
+    }
+}

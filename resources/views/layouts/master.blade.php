@@ -9,7 +9,7 @@
     
     <!-- General description of the site -->
     <meta name="description" content="Emrah Seidov - full stack web developer specialized in PHP, Laravel, CMS systems like WordPress and many other web technologies."/>
-    <meta name="keywords" content="Rousse, Web Developer, PHP, Laravel, Wordpress, Bootstrap">
+    <meta name="keywords" content="Rousse, Web Developer, PHP, Laravel, Wordpress, Bootstrap, JavaScript, HTML5, CSS3">
     <meta name="author" content="Emrah Seidov"/>
     <link rel="icon" href="http://i.imgur.com/WclrpxA.png">
     <title>Emrah Seidov - @yield('title')</title>
@@ -20,7 +20,7 @@
     <!-- Font Awesome -->
     <script src="https://use.fontawesome.com/613a1ea12e.js"></script>
 
-    <!-- Stroke-Gap-Icons-Webfont -->
+    <!-- Stroke-Gap-Icons-Webfont (For scroll icon in About section) -->
     <link rel="stylesheet" type="text/css" href="/Stroke-Gap-Icons-Webfont/style.css">
     
     <!-- Stylesheets -->

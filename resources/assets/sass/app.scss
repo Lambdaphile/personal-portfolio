@@ -4,153 +4,54 @@
     box-sizing: border-box;
 }
 
-html, body, main, section {
+html, body, main {
     height: 100%;
     font-family: 'Raleway', sans-serif;
-    color: white;
+    color: #ecf0f1;
     font-size: 14px;
 }
 
-a {
+a, a:hover {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: none;
+// Make Bootstrap columns heigh equal 
+.row {
+  overflow: hidden; 
 }
 
-nav {
-    height: 50px;
-    background: transparent;
-    width: 100%;
-    text-align: center;
-    font-size: 1.2em;
-
-    a {
-        color: white;
-        text-decoration: none;
-    }
-
-    ul {
-        bottom: 0;
-    }
-
-    li {
-        margin: 15px;
-        display: inline-block;
-    }
+[class*="col-"]{
+  margin-bottom: -99999px;
+  padding-bottom: 99999px;
 }
 
-.section {
+// Partials 
+@import "resources/assets/sass/partials/home-section";
+@import "resources/assets/sass/partials/about-section";
+@import "resources/assets/sass/partials/skills-section";
+@import "resources/assets/sass/partials/projects-section";
+@import "resources/assets/sass/partials/contact-section";
+
+
+/*
+    CSS for sketching
+ */
+#sketch-home {
     height: 100%;
+    background-color: purple;
 }
 
-.section-home {
-    @extend .section;
-    background: linear-gradient(rgba(202,89,59,0.85), rgba(221,115,102,0.85)), url(/images/portfolio-header.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.section-projects {
-    @extend .section;
-    background-color: #ECE5CE;
-}
-
-.section-skills {
-    @extend .section;
-    background-color: #C5E0DC;
-}
-
-.section-contact {
-    @extend .section;
-    background-color: #774F38;
-
-}
-
-.intro-box {
+#absolute-div {
+    width: 100px;
+    height: 100px;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-    text-align: center;
-    font-size: 14px;
+    background-color: yellow;
+    margin: 0 auto 0 auto;
+    left: 0;
+    right: 0;
+    bottom: 5%;
 }
 
-h2 {
-    font-size: 1.8em;
-}
-
-#name {
-    font-family: 'Poiret One', cursive;
-    font-size: 5.5em;
-    padding: 40px;
-    border: 4px solid #ecf0f1;
-    display: inline-block;
-}
-
-.contact-buttons {
-    background-color: transparent;
-    border-radius: 100%;
-    padding: 22px 11px 12px 13px;
-    background-color: #ecf0f1;
-    outline: none;
-
-    i {
-        color: #DD7366;
-    }
-
-    margin-left: 10px;
-    margin-right: 10px;
-
-
-
-}
-
-#contact-buttons-box {
-    margin-top: 60px;
-}
-
-.btn-git {
-    padding: 22px 10px 12px 12px;
-}
-
-.contact-buttons:hover {
-    background-color: #e74c3c;
-    border-color: #e74c3c;
-    color: #ecf0f1;
-
-}
-
-.contact-buttons:hover  i {
-    color: #ecf0f1;
-}
-
-.icon {
-    font-family: 'Stroke-Gap-Icons';
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-}
-
-.icon-Mouse {
-        content: "/e679";
-        font-size: 1.8em;
-        color: #ecf0f1;
-}
-
-#down-arrow {
-    background-color: transparent;
-    border: none;
-    outline: none;
-    position: absolute;
-        
-
-    h3 {
-        font-size: 1.8em;
-    }
+section {
+    position: relative;
 }

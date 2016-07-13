@@ -1,0 +1,119 @@
+#home-section-background {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    background-position: center;
+    background-image: url(/images/portfolio-header.jpg);
+    z-index: -2;
+}
+
+#home-section {
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgba(202,89,59,0.85), rgba(221,115,102,0.85));
+    z-index: 0;
+
+    nav {
+        height: 50px;
+        width: 100%;
+        text-align: center;
+        font-size: 1.2em;
+        background: transparent;
+
+        a {
+            color: white;
+            text-decoration: none;
+        }
+
+        li {
+            margin: 15px;
+            display: inline-block;
+        }
+    }
+    
+    #intro-box {
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        font-size: 1em;
+        text-align: center;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        
+        #name-box {
+            font-family: 'Poiret One', cursive;
+            font-size: 5.5em;
+            padding: 40px;
+            border: 4px solid #ecf0f1;
+            display: inline-block;
+        }   
+
+        .contact-buttons {
+            background-color: transparent;
+            border-radius: 100%;
+            padding: 22px 11px 12px 13px;
+            background-color: #ecf0f1;
+            outline: none;
+
+            i {
+                color: #DD7366;
+            }
+
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .btn-git {
+            padding: 22px 10px 12px 12px;
+        }
+
+        #contact-buttons-box {
+            margin-top: 60px;
+        }
+
+        .contact-buttons:hover {
+            background-color: #e74c3c;
+            border-color: #e74c3c;
+            color: #ecf0f1;
+
+        }
+
+        .contact-buttons:hover  i {
+            color: #ecf0f1;
+        }
+    }
+
+    h2 {
+        font-size: 1.8em;
+    }
+
+    #down-arrow {
+        height: 100px;
+        width: 100px;
+        left: 0;
+        right: 0;
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+        bottom: 5%;
+        position: absolute;
+        background-color: transparent;
+        
+        .icon {
+            font-family: 'Stroke-Gap-Icons';
+            font-style: normal;
+            font-weight: normal;
+            font-variant: normal;
+            text-transform: none;
+            line-height: 1;
+        }
+
+        .icon-Mouse {
+            content: "/e679";
+            font-size: 2.4em;
+            color: #ecf0f1;
+        }
+
+    }
+}
