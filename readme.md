@@ -3,7 +3,7 @@
 This is my attemp to create fully responsive personal portfolio & blog for practicing front-end/back-end while learning 
 laravel framework and create own portfolio-site.
 
-## Include ## 
+### Include ### 
 
 * [Laravel Framework](https://laravel.com/docs/5.2) for you know...
 * [Bootstrap](http://getbootstrap.com) for CSS and jQuery plugins
