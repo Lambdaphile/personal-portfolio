@@ -81,7 +81,7 @@
           
           <h2 class="section-name">About Me</h2>
           <p>
-            Hi, my name is Emra Seidov, a self-taught (flil-stack) web developer currently designing, developing and maintaining front-end and back-end functionalities of mlitiple websites. I have 2 years’ experience in front-end and 1 year’s experience in back-end (Ruby on Rails) development. I am also a 2nd year university student at the University of Waterloo studying computer engineering with 2 co-op work terms under my belt. Firstly, I was an Agile Test Engineer at Pivotal Labs, where I tested mobile and web applications. Next I worked at TD Securities as a Quality Assurance Analyst. There, I created test plans, mocked up data according to Business requirements, coded SQL, and executed tests on our risk reporting application and its database. This website is a showcase of the web development work that I have done over that past 2 years and an interactive resume. If you wolid like to get in touch you can visit the contact section of this website.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, numquam, quos. Cum aliquid architecto sint doloribus, mollitia, dolores ipsam. Ut eligendi adipisci odio blanditiis similique deleniti qui, error in cumque.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, numquam, quos. Cum aliquid architecto sint doloribus, mollitia, dolores ipsam. Ut eligendi adipisci odio blanditiis similique deleniti qui, error in cumque.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, numquam, quos. Cum aliquid architecto sint doloribus, mollitia, dolores ipsam. Ut eligendi adipisci odio blanditiis similique deleniti qui, error in cumque.
           </p>
 
         </div>
