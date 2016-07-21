@@ -16,20 +16,19 @@
     
     <!-- Costum fonts -->
     <link href='https://fonts.googleapis.com/css?family=Lato|Raleway|Poiret+One' rel='stylesheet' type='text/css'>
-
+    
     <!-- Font Awesome -->
     <script src="https://use.fontawesome.com/613a1ea12e.js"></script>
-
+    
     <!-- Stroke-Gap-Icons-Webfont (For scroll icon in About section) -->
     <link rel="stylesheet" type="text/css" href="/Stroke-Gap-Icons-Webfont/style.css">
     
     <!-- Stylesheets -->
     <link rel="stylesheet" type="text/css" href="/css/app.css">
   </head>
-  
-  <body> 
+
+  <body>
     @yield('content')
-    
     <!-- Latest compressed, production jQuery 2.2.3 -->
     <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
