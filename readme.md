@@ -5,5 +5,6 @@ laravel framework and create own portfolio-site.
 
 ## Include ## 
 
-[Bootstrap](http://getbootstrap.com) for CSS and jQuery plugins
-[Font Awesome](http://fortawesome.github.io/Font-Awesome) for the nice icons
+* [Laravel Framework](https://laravel.com/docs/5.2) for you know...
+* [Bootstrap](http://getbootstrap.com) for CSS and jQuery plugins
+* [Font Awesome](http://fortawesome.github.io/Font-Awesome) for the nice icons
