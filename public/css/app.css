@@ -5752,19 +5752,22 @@ button.close {
 * {
   box-sizing: border-box; }
 
-html, body, main {
-  height: 100%;
+html,
+body,
+main {
   font-family: 'Raleway', sans-serif;
-  color: #ecf0f1;
-  font-size: 14px; }
+  font-size: 14px;
+  height: 100%;
+  color: #ecf0f1; }
 
-a, a:hover {
+a,
+a:hover {
   text-decoration: none; }
 
 .row {
   overflow: hidden; }
 
-[class*="col-"] {
+[class*='col-'] {
   margin-bottom: -99999px;
   padding-bottom: 99999px; }
 
@@ -5936,7 +5939,8 @@ li {
 /* Porojects section starts here */
 #section-projects {
   height: 100%;
-  background-color: #2E2E2E; }
+  background-color: #2E2E2E;
+  color: red; }
 
 /* Porojects section ends here */
 /* Contact section starts here */
@@ -5946,22 +5950,63 @@ li {
 /* Contact section ends here */
 /*
     CSS for sketching
- */
-#sketch-home {
-  height: 100%;
-  background-color: purple; }
+*/
+#sketch-section {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: #2e2e2e; }
 
-#absolute-div {
-  width: 100px;
-  height: 100px;
-  position: absolute;
-  background-color: yellow;
-  margin: 0 auto 0 auto;
-  left: 0;
-  right: 0;
-  bottom: 5%; }
+.skills-section-offset {
+  margin-left: 16.66666667%; }
 
-section {
-  position: relative; }
+.section-name {
+  font-size: 2em;
+  display: inline-block;
+  margin: 0 0 50px 0;
+  padding: 15px;
+  color: #2ecc71;
+  border: 3px solid #2ecc71; }
+
+.project-pic-full {
+  position: relative;
+  width: 100%; }
+
+.project-description {
+  width: 100%;
+  height: 140px;
+  padding: 20px;
+  background-color: #ecf0f1; }
+  .project-description h2 {
+    font-family: 'Raleway';
+    font-size: 1.5em;
+    margin: 0;
+    color: #2e2633; }
+  .project-description p {
+    font-family: 'Raleway';
+    font-size: 1.1em;
+    color: #2e2633; }
+  .project-description .small-line {
+    width: 30px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-top: 3px solid #2ecc71; }
+
+.used-technologies {
+  width: 100%;
+  min-height: 140px;
+  padding: 0 20px 0 20px;
+  background-color: #ecf0f1; }
+  .used-technologies h3 {
+    font-size: .9em;
+    display: inline-block;
+    margin: 5px 2px;
+    padding: 3px 8px;
+    color: #2e2633;
+    border: 1.5px solid #2e2633;
+    border-radius: 18px; }
+  .used-technologies p {
+    font-size: 1em;
+    margin: 10px 0 10px 5px;
+    color: #27ae60; }
 
 /*# sourceMappingURL=app.css.map */
