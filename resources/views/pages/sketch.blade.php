@@ -19,8 +19,8 @@
   <section id="sketch-section">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xs-12 skills-section-offset">
-          <h2 class="section-name">Projects</h2>
+        <div class="col-xs-12 project-section-offset">
+          <h2 class="section-name-box projects-name-color">Projects</h2>
           <!-- /.section-name -->
         </div>
         <!-- /.col-xs-12 skills-section-offset -->
@@ -30,7 +30,7 @@
     <!-- /.container-fluid -->
     <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-4 skills-section-offset minor-projects">
+        <div class="col-sm-4 project-section-offset minor-projects">
           <img class="project-pic-full" src="/images/portfolio-capture.png" alt="portfolio-pic"/>
           <div class="project-description">
             <h2>This Website</h2>

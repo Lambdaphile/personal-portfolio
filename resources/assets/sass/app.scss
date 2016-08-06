@@ -1,10 +1,5 @@
 @import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
 
-*
-{
-    box-sizing: border-box;
-}
-
 html,
 body,
 main
@@ -54,23 +49,12 @@ a:hover
     background-color: #2e2e2e;
 }
 
-.skills-section-offset
+.project-section-offset
 {
     margin-left: 16.66666667%;
 }
 
-.section-name
-{
-    font-size: 2em;
 
-    display: inline-block;
-
-    margin: 0 0 50px 0;
-    padding: 15px;
-
-    color: #2ecc71;
-    border: 3px solid #2ecc71;
-}
 
 .project-pic-full
 {
@@ -112,6 +96,12 @@ a:hover
     }
 }
 
+.projects-name-color {
+    color: #2ecc71;
+    color: red;
+    border-color: #2ecc71;
+}
+ 
 .used-technologies
 {
     width: 100%;

@@ -4,11 +4,11 @@
 
 <main role="main">
 
-<div id="home-section-background">
+<div id="main-section-background">
 </div>
 <!-- /#home-section-background -->
 
-<section id="home-section">
+<section id="main-section">
   
   <div class="container-fluid">
     
@@ -79,7 +79,7 @@
 
         <div class="about-me">
           
-          <h2 class="section-name">About Me</h2>
+          <h2 class="section-name-box">About Me</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, numquam, quos. Cum aliquid architecto sint doloribus, mollitia, dolores ipsam. Ut eligendi adipisci odio blanditiis similique deleniti qui, error in cumque.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, numquam, quos. Cum aliquid architecto sint doloribus, mollitia, dolores ipsam. Ut eligendi adipisci odio blanditiis similique deleniti qui, error in cumque.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, numquam, quos. Cum aliquid architecto sint doloribus, mollitia, dolores ipsam. Ut eligendi adipisci odio blanditiis similique deleniti qui, error in cumque.
           </p>
@@ -142,7 +142,7 @@
       <div class="col-md-12">
       
         <div class="skills">
-          <h2 class="section-name">Skills</h2>
+          <h2 class="section-name-box">Skills</h2>
         </div>
         <!-- /.skills -->
 

@@ -15,7 +15,7 @@
     <title>Emrah Seidov - @yield('title')</title>
     
     <!-- Costum fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Lato|Raleway|Poiret+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato|Raleway:400,500|Poiret+One' rel='stylesheet' type='text/css'>
     
     <!-- Font Awesome -->
     <script src="https://use.fontawesome.com/613a1ea12e.js"></script>

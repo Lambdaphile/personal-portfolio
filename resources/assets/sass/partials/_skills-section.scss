@@ -12,16 +12,6 @@ li {
     .skills
     {
         margin-left: 17.2%;
-        .section-name
-        {
-            display: inline-block;
-
-            margin: 0 0 50px 0;
-            padding: 15px;
-
-            color: #e74c3c;
-            border: 3px solid #e74c3c;
-        }
     }
     .web-skills
     {
@@ -49,6 +39,22 @@ li {
 
 .skills-offset {
     margin-right: 100px;
+}
+
+.section-name-box
+{
+    font-size: 2em;
+
+    display: inline-block;
+
+    margin: 0 0 50px 0;
+    padding: 15px;
+    border: 3px solid;
+}
+
+.skills-name-color {
+    color: #2E2E2E;
+    border-color: #2E2E2E;
 }
 
 
