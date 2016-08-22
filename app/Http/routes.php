@@ -16,15 +16,14 @@ Route::get('/', [
     'as' => 'home', 'uses' => 'PagesController@portfolio'
 ]);
 
-// Maby in future
+// SoonTM
 Route::get('blog', [
-    'as' => 'glog', 'uses' => 'PagesController@blog'
+    'as' => 'blog', 'uses' => 'PagesController@blog'
 ]);
 
-// Sketching with html & css 
-Route::get('sketch', [
-    'as' => 'sketch', 'uses' => 'PagesController@sketch'
-]);
+
+
+
 
 
 /*

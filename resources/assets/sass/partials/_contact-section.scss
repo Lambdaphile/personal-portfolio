@@ -1,6 +1,72 @@
-/* Contact section starts here */
-.section-contact {
-    @extend .section;
-    background-color: #774F38;
+#contacts-section
+{
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    background-color: #ecf0f1;
+    a
+    {
+        font-family: 'Raleway';
+        font-size: 1.4em;
+        font-weight: 400;
+
+        display: inline-block;
+
+        margin: 5px 0 5px 0;
+
+        color: #2e2633;
+    }
+    a:hover
+    {
+        color: #e74c3c;
+    }
+    @media only screen and (max-width: 767px)
+    {
+        text-align: center;
+        a
+        {
+            font-size: 1.2em;
+        }
+        .contacts-heading
+        {
+            font-size: 2em;
+
+            margin: 0;
+            padding: 0;
+
+            color: #2e2633;
+            border: none;
+        }
+        .small-line
+        {
+            bottom: 4px;
+
+            width: 35px;
+            margin: 10px auto 40px auto;
+
+            border-color: #e74c3c;
+            border-top: 3px solid #e74c3c;
+        }
+    }
+    @media only screen and (min-width: 768px)
+    { 
+        .small-line
+        {
+            display: none;
+        }
+    }
+    .container-fluid:first-child
+    {
+        margin-bottom: 20px;
+    }
 }
-/* Contact section ends here */
+
+.contacts-heading
+{
+    margin-bottom: 60px;
+
+    color: #e74c3c;
+    border-color: #e74c3c;
+
+    @extend .section-heading;
+}

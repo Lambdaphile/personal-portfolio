@@ -1,15 +1,27 @@
 @import 'node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
 
+html
+{
+    font-family: sans-serif;
+
+        -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
 html,
 body,
 main
 {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
     font-size: 14px;
 
     height: 100%;
 
     color: #ecf0f1;
+}
+
+li
+{
+    list-style: none;
 }
 
 a,
@@ -29,105 +41,91 @@ a:hover
     margin-bottom: -99999px;
     padding-bottom: 99999px;
 }
+// Make Bootstrap columns heigh equal 
 
-// Partials 
-@import 'resources/assets/sass/partials/home-section';
-@import 'resources/assets/sass/partials/about-section';
-@import 'resources/assets/sass/partials/skills-section';
-@import 'resources/assets/sass/partials/projects-section';
-@import 'resources/assets/sass/partials/contact-section';
-
-
-/*
-    CSS for sketching
-*/
-#sketch-section
+.section-heading
 {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    font-size: 2em;
+    font-weight: 400;
 
-    background-color: #2e2e2e;
+    display: inline-block;
+
+    padding: 15px;
+
+    border: 3px solid;
 }
 
-.project-section-offset
+footer
 {
-    margin-left: 16.66666667%;
-}
+    margin: 0;
+    padding: 15px 0;
 
-
-
-.project-pic-full
-{
-    position: relative;
-
-    width: 100%;
-}
-
-.project-description
-{
-    width: 100%;
-    height: 140px;
-    padding: 20px;
-
-    background-color: #ecf0f1;
+    background-color: #fff;
     h2
     {
         font-family: 'Raleway';
-        font-size: 1.5em;
+        font-size: 1.2em;
+        font-weight: 400;
 
         margin: 0;
 
         color: #2e2633;
     }
-    p
-    {
-        font-family: 'Raleway';
-        font-size: 1.1em;
-
-        color: #2e2633;
-    }
-    .small-line
-    {
-        width: 30px;
-        margin-top: 5px;
-        margin-bottom: 10px;
-
-        border-top: 3px solid #2ecc71;
-    }
 }
 
-.projects-name-color {
-    color: #2ecc71;
-    color: red;
-    border-color: #2ecc71;
-}
- 
-.used-technologies
-{
-    width: 100%;
-    min-height: 140px;
-    padding: 0 20px 0 20px;
+// Partials 
+@import 'resources/assets/sass/partials/main-section';
+@import 'resources/assets/sass/partials/about-section';
+@import 'resources/assets/sass/partials/skills-section';
+@import 'resources/assets/sass/partials/projects-section';
+@import 'resources/assets/sass/partials/contact-section';
 
-    background-color: #ecf0f1;
-    h3
-    {
-        font-size: .9em;
+// #timeline
+// {
+//     ul {
+//         padding: 0;
+//     }
 
-        display: inline-block;
+//     padding: 50px 0 50px 0;
 
-        margin: 5px 2px;
-        padding: 3px 8px;
+//     background-image: linear-gradient(rgba(46,46,46,.92), rgba(46,46,46,.92)), url(/images/portfolio-timeline.jpg);
+//     background-attachment: fixed;
 
-        color: #2e2633;
-        border: 1.5px solid #2e2633;
-        border-radius: 18px;
-    }
-    p
-    {
-        font-size: 1em;
 
-        margin: 10px 0 10px 5px;
+//     @media only screen and (max-width: 767px) {
+//         text-align: center;
+//         a {
+//             font-size: 1.2em;
+//         }
 
-        color: #27ae60;
-    }
-}
+//         .timeline-heading {
+//             border:none;
+//             color: inherit;
+//             margin: 0;
+//             padding: 0;
+//         }
+
+//         .small-line {
+//             margin: 10px auto 40px auto;
+//             border-color: #3498db;
+//             width: 35px;
+//             border-top: 3px solid #3498db;
+//             bottom: 4px;
+//         }
+
+//     }
+
+//     @media only screen and (min-width: 768px) {
+//         .small-line {
+//             display: none;
+//         }
+//     }
+// }
+
+// .timeline-heading {
+//     @extend .section-heading;
+//     color: #69D2E7;
+//     border-color: #69D2E7;
+//     margin-bottom: 60px;
+
+// }

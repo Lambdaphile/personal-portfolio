@@ -1,86 +1,181 @@
-#section-about
+#about
 {
-    .col-md-7
-    {
-        height: 100%;
+    background-color: #dd7366;
+}
 
-        background-color: #dd7366;
+.about-me
+{
+    background-color: #2e2633;
+}
+
+@media only screen and (max-width: 767px)
+{
+    .about-heading,
+    .profile-heading
+    { 
+        font-size: 2rem;
+
+        display: block;
+
+        margin: 0;
+        padding: 0;
+
+        text-align: center;
+
+        color: inherit;
+        border: none;
     }
-    .col-md-5
+
+    .about-col
     {
-        background-color: #2e2633;
+        padding: 80px 15px;
     }
-    .about-me
+
+    .about-col
     {
-        margin-left: 30%;
-        padding: 80px 60px 80px 15px;
-        p
+        .small-line
         {
-            font-family: 'Raleway', heletica;
-            font-size: 1.18em;
+            bottom: 4px;
 
-            margin: 0;
+            width: 35px;
+            margin: 10px auto 40px auto;
 
-            text-align: left;
-
-            color: #ecf0f1;
-        }
-        .section-name
-        {
-            display: inline-block;
-
-            margin: 0 0 50px 0;
-            padding: 15px;
-
-            color: #2e2e2e;
-            border: 3px solid #2e2e2e;
+            border-top: 3px solid #2e2e2e;
         }
     }
-    .profile
-    {
-        padding: 80px 60px 80px 80px;
 
-        background-color: #2e2633;
+    .profile-col
+    {
+        text-align: center;
+        .small-line
+        {
+            bottom: 4px;
+
+            width: 35px;
+            margin: 10px auto 40px auto;
+
+            border-top: 3px solid #69d2e7;
+        }
         ul
         {
-            padding: 0;
+            .small-line
+            {
+                width: 20px;
+
+                border-top: 2px solid #69d2e7;
+            }
         }
-        .section-name
+    }
+}
+
+@media only screen and (min-width: 768px)
+{
+    .about-col
+    {
+        .small-line
         {
-            font-size: 2em;
-
-            display: inline-block;
-
-            margin: 0 0 50px 0;
-            padding: 15px;
-
-            color: #69d2e7;
-            border: 3px solid #69d2e7;
+            display: none;
         }
+    }
+
+    .about-heading,
+    .profile-heading
+    {
+        margin: 0 0 50px 0;
+    }
+
+    .about-col
+    {
+        padding: 80px 65px 80px 0;
+    }
+
+    .profile-col
+    {
+        .small-line:first-of-type
+        {
+            display: none;
+        }
+        ul
+        {
+            .small-line:first-of-type
+            {
+                display: block;
+            }
+        }
+    }
+}
+
+.about-col
+{
+    background-color: #dd7366;
+    p
+    {
+        font-family: 'Raleway';
+        font-size: 1.18em;
+
+        margin: 0;
+
+        text-align: left;
+    }
+}
+
+.about-heading
+{
+    color: #2e2e2e;
+    border-color: #2e2e2e;
+
+    @extend .section-heading;
+}
+
+.prf-clr
+{
+    background-color: #2e2633;
+}
+
+.profile-col
+{
+    padding: 80px 60px 80px 65px;
+
+    background-color: #2e2633;
+    ul
+    {
+        padding: 0;
         li
         {
             font-size: 1.15em;
+            font-weight: 400;
 
             margin: 0;
             padding: 0;
 
             list-style: none;
+
+            color: #ecf0f1;
             p
             {
                 font-size: 1.25em;
+
+                margin: 0;
             }
         }
-        
     }
 }
+
+.profile-heading
+{
+    color: #69d2e7;
+    border-color: #69d2e7;
+
+    @extend .section-heading;
+}
+
 .small-line
 {
     position: relative;
 
-
     width: 20px;
+    margin-top: 6px;
     margin-bottom: 30px;
 
     border-top: 2px solid #69d2e7;
 }
-
