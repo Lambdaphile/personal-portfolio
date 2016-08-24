@@ -1,10 +1,6 @@
-# This is my personal portfolio & Blog site
+# Personal portfolio & Blog site ([quick-preview](http://portfolio-quick-preview.html-5.me/)) 
 
-This is my attempt to create fully responsive personal portfolio & blog for practicing front-end/back-end while learning 
-laravel framework.
-
-For quick preview of the front-end code and responsibility you can check [c9.io](https://ide.c9.io/xnerdrage/portfolio-quick-preview
-) (online editor) or to just see what it looks like check [here.](https://portfolio-quick-preview-xnerdrage.c9users.io)
+This is my attempt to create fully responsive personal portfolio & blog for practicing front-end/back-end while learning Laravel framework.
 
 ## Include
 
