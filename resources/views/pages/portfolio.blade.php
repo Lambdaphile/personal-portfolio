@@ -1,7 +1,7 @@
 <!-- Stored in resources/views/pages/portfolio.blade.php -->
 @extends('layouts.master')
 @section('portfolio')
-
+     
 <main role="main">
 
 <div id="main-section-background">
